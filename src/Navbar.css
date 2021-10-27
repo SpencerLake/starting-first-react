@@ -1,0 +1,43 @@
+.header-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: transparent;
+  }
+
+.container {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    width: 100%;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+.navbar-brand {
+    width: 12rem;
+    min-width: 10rem;
+}
+
+.navbar-nav {
+    display: flex;
+    margin-left: 40%;
+}
+
+.menu-text {
+    list-style: none;
+    margin-right: 1rem;
+    color: white;
+    letter-spacing: 0.0625em;
+    transition: color .15s ease-in-out, backround-color .15s ease-in-out, border-color .15s ease-in-out;
+    font-size: .95rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
